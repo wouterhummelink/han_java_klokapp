@@ -1,0 +1,9 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+  compile group: 'org.processing', name: 'core', version: '3.3.6-1'
+}
